@@ -575,7 +575,7 @@ bot.onText(/\/delpair(?:\s*(.+))?/, async (msg, match) => {
     const SESSIONS_FILE = './sessions/active_sessions.json';
     const PAIR_FILE = './user_pairs.json';
 
-    const bannerImage = "https://files.catbox.moe/z2l1as.jpg";
+    const bannerImage = "https://multi-host.ct.ws//sites/IMG-20260224-WA0309.jpg";
 
     const sendWithBanner = async (text) => {
         await bot.sendPhoto(chatId, bannerImage, {
