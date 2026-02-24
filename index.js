@@ -329,10 +329,10 @@ async function connectToWhatsApp(botNumber, chatId) {
 
 // Bot Start
 // CONFIG — update apne links aur channel username
-const CHANNEL_USERNAME = "@syedotp"; // Telegram channel
-const YT_LINK = "http://www.youtube.com/@Teamsyedhaker";
-const IG_LINK = "https://www.instagram.com/syeddlrofficial?igsh=MXBuZnU0bGVma3UwMQ==";
-const WA_LINK = "https://whatsapp.com/channel/0029VbBo79xA89MqhJETWp0Z";
+const CHANNEL_USERNAME = "@syedhacks"; // Telegram channel
+const YT_LINK = "https://www.youtube.com/@jbk-darkworks";
+const IG_LINK = "https://www.instagram.com/jbkdarkworks?igsh=am5pczRhOWo5Y3R4";
+const WA_LINK = "https://whatsapp.com/channel/0029Vb7HfdMATRSkdW8QbX3G";
 
 // Join check helper
 async function isUserJoined(bot, userId) {
