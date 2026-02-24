@@ -381,8 +381,8 @@ bot.onText(/\/start/, async (msg) => {
 
   // HTML use karne se underscores (@syed_hacker_official) error nahi denge
   const introMessage = `
-┌───[ ⚡ SYED BUG BOT  ]───┐
-│ 𝐃𝐞𝐯: @syed_hacker_official
+┌───[ ⚡ JBK BUG BOT  ]───┐
+│ 𝐃𝐞𝐯: @blackkiller09
 │ 𝐔𝐩𝐭: ${uptime}
 ├──────────────────────┤
 │ 🤖 𝐀𝐍𝐃𝐑𝐎𝐈𝐃 𝐙𝐎𝐍𝐄
@@ -521,7 +521,7 @@ bot.onText(/\/listprem$/, async (msg) => {
   if (!isMainOwner(sender)) {
     return bot.sendMessage(
       chatId,
-      "❌ *Only Developer SYED BUG BOT  can use this command!*",
+      "❌ *Only Developer JBK BUG BOT  can use this command!*",
       { parse_mode: "Markdown" }
     );
   }
@@ -782,7 +782,7 @@ bot.onText(/\/addprem(?:\s+(\d+))?(?:\s+(\d+))?/, async (msg, match) => {
 
   // 🔒 Only Main Owner
   if (!isMainOwner(msg.from.id.toString())) {
-    return sendWithBanner("🚫 Only Developer SYED BUG BOT can use this command!");
+    return sendWithBanner("🚫 Only Developer JBK BUG BOT can use this command!");
   }
 
   if (!userId || !days) {
